@@ -76,13 +76,13 @@
 				E17A8DB625D67F0800FA4A85 /* SceneDelegate.m */,
 				E17A8DB825D67F0800FA4A85 /* ViewController.h */,
 				E17A8DB925D67F0800FA4A85 /* ViewController.m */,
+				E17A8DDA25D6FD0800FA4A85 /* Flock */,
 				E17A8DD125D6A35C00FA4A85 /* Calculator */,
 				E17A8DBB25D67F0800FA4A85 /* Main.storyboard */,
 				E17A8DBE25D67F0800FA4A85 /* Assets.xcassets */,
 				E17A8DC025D67F0800FA4A85 /* LaunchScreen.storyboard */,
 				E17A8DC325D67F0800FA4A85 /* Info.plist */,
 				E17A8DC425D67F0800FA4A85 /* main.m */,
-				E17A8DDA25D6FD0800FA4A85 /* Flock */,
 			);
 			path = GBObjcLesson5NoneARC;
 			sourceTree = "<group>";

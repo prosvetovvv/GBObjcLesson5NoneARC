@@ -20,14 +20,14 @@
     [super viewDidLoad];
     
     // 1
-//    Calculator *calculator = [[Calculator alloc] initWithNumberOne: 1 numberTwo: 2];
-//    
-//    [calculator sum];
-//    [calculator difference];
-//    [calculator multiplication];
-//    [calculator division];
-//    
-//    [calculator release];
+    Calculator *calculator = [[Calculator alloc] initWithNumberOne: 1 numberTwo: 2];
+    
+    [calculator sum];
+    [calculator difference];
+    [calculator multiplication];
+    [calculator division];
+    
+    [calculator release];
     
     // 2
     FlockOfBirds *flock = [FlockOfBirds new];

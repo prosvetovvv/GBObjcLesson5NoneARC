@@ -21,7 +21,7 @@
 }
 
 - (void)configWithDirection:(Direction)direction andBirds:(NSArray *)birds {
-    _direction = direction;
+    self.direction = direction;
     _birds = birds;
 }
 
