@@ -6,6 +6,9 @@
 //
 
 #import "ViewController.h"
+#import "Calculator.h"
+#import "FlockOfBirds.h"
+#import "Bird.h"
 
 @interface ViewController ()
 
@@ -15,8 +18,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 1
+    Calculator *calculator = [[Calculator alloc] initWithNumberOne: 1 numberTwo: 2];
+    
+    [calculator sum];
+    [calculator difference];
+    [calculator multiplication];
+    [calculator division];
+    
+    [calculator release];
+    
+    // 2
+    FlockOfBirds *flock = [FlockOfBirds new];
+    NSMutableArray *birds = [self createBirds:3];
+    [flock configWithDirection: DirectionSouth andBirds: birds];
+    
+    [flock release];
 }
 
-
+- (NSMutableArray *) createBirds: (NSInteger)count {
+    NSMutableArray *birds = [[NSMutableArray alloc] init];
+    
+    for (NSInteger i = 1; i <= count; i++) {
+        Bird *bird = [[Bird alloc] initWithNumber: i];
+        [birds addObject:bird];
+    }
+    
+    return birds;
+}
+ 
 @end
